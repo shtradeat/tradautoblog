@@ -34,6 +34,14 @@ elif opcion == 3:
     dolares = round(dolares, 2)
     dolares = str(dolares)
     print("Tienes $" + dolares + "dolares")
+elif opcion == 4:
+    pesos = input ("Cuántos EUROS tienes?")
+    pesos = float(pesos)
+    valor_dolar = 1
+    dolares = pesos / valor_dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print("Tienes $EUR" + dolares + "EUROS")
 else: 
     print("Escribe una opción correcta")
 
